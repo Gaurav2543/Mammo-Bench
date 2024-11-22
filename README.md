@@ -56,8 +56,8 @@ This dataset is intended for research purposes only and should not be used for d
 
 ## Contact
 For questions or issues, please contact:
-- Email: [gaurav.bhole@research.iiit.ac.in]
-- GitHub: [Gaurav2543]
+- Email: gaurav.bhole@research.iiit.ac.in
+- GitHub: github.com/Gaurav2543/Mammo-Bench
 
 ## Acknowledgments
 We thank the original creators of INbreast, Mini-DDSM, KAU-BCMD, CMMD, CDD-CESM, RSNA Screening Dataset, and DMID for making their datasets publicly available.
