@@ -20,23 +20,24 @@ The preprocessing code is available in our [GitHub repository](https://github.co
 - **Source Datasets**: 7 well-curated public resources
 
 ### 📋 Comprehensive Annotations
-- BI-RADS scores (0-6)
-- Breast density classifications (ACR A-D)
 - Case labels (Normal/Benign/Malignant)
-- Molecular subtypes (for subset)
+- Breast density classifications (ACR A-D)
+- BI-RADS scores (0-6)
+- Molecular subtypes (Luminal A, Luminal B, HER2, TNBC)
 - Abnormality types (mass, calcification, or both)
 
 ### 🔍 Preprocessing Pipeline
 Our robust preprocessing pipeline ensures consistency while preserving clinically relevant features:
 1. Data format standardization
-2. Breast segmentation using OpenBreast toolkit
-3. Pectoral muscle removal
-4. Intelligent cropping
-5. Binary mask generation
+2. Binary Mask Generation
+3. Breast Segmentation and Pectoral Muscle Removal using [OpenBreast](https://github.com/spertuz/openbreast) toolkit
+5. Intelligent Cropping to remove extraneous areas
 
 ## Repository Structure
 ```
 Mammo-Bench/
+├── README.md
+├── LICENSE
 ├── CSV_Files/                  # Classification task CSV files
 │   ├── mammo-bench_nbm_classification.csv
 │   ├── mammo-bench_density_classification.csv
@@ -102,13 +103,7 @@ trainer.fit(model, train_loader, val_loader)
 
 ## Citation
 If you use this dataset in your research, please cite:
-```bibtex
-@article{bhole2024mammobench,
-  title={Mammo-Bench: A Large Scale Benchmark Dataset of Mammography Images},
-  author={Bhole, Gaurav and S, Suba and Parekh, Nita},
-  journal={},
-  year={2024}
-}
+```
 [Citation will be added after publication]
 ```
 
@@ -124,6 +119,3 @@ We thank the original creators of INbreast, Mini-DDSM, KAU-BCMD, CMMD, CDD-CESM,
 
 ---
 **Disclaimer**: This dataset is intended for research purposes only and should not be used for direct clinical diagnosis.
-
-## Acknowledgments
-We thank the original creators of INbreast, Mini-DDSM, KAU-BCMD, CMMD, CDD-CESM, RSNA Screening Dataset, and DMID for making their datasets publicly available.
