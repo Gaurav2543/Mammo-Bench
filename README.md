@@ -1,10 +1,10 @@
 # Mammo-Bench: A Large Scale Benchmark Dataset of Mammography Images
 
 ## Overview
-Mammo-Bench is one of the largest open-source mammography datasets, comprising 71,844 high-quality mammographic images from 26,500 patients across 8 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3751981/), [Mini-DDSM](https://www.kaggle.com/datasets/cheddad/miniddsm2), [KAU-BCMD](https://www.mdpi.com/2306-5729/6/11/111), [CMMD](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70229053), [CDD-CESM](https://www.nature.com/articles/s41597-022-01226-4), [RSNA Screening Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection), and [DMID](https://link.springer.com/article/10.1007/s13534-023-00295-7).
+Mammo-Bench is one of the largest open-source mammography datasets, comprising 71,844 high-quality mammographic images from 26,500 patients across 8 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), [Mini-DDSM](https://www.kaggle.com/datasets/cheddad/miniddsm2), [KAU-BCMD](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset), [CMMD](https://www.cancerimagingarchive.net/collection/cmmd/), [CDD-CESM](https://www.cancerimagingarchive.net/collection/cdd-cesm/), [RSNA Screening Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data), and [DMID](https://figshare.com/articles/dataset/_b_Digital_mammography_Dataset_for_Breast_Cancer_Diagnosis_Research_DMID_b_DMID_rar/24522883).
 
 ## Dataset Access
-The complete dataset can be accessed [here](https://datafoundation.iiit.ac.in/healthcare).
+The complete dataset can be accessed [here](https://datafoundation.iiit.ac.in/dataset-versions/469a02c0-de8e-4827-bf8c-14003a46b507).
 
 ## Code Availability
 The preprocessing code is available in our [GitHub repository](https://github.com/Gaurav2543/Mammo-Bench).
@@ -63,7 +63,7 @@ This dataset is intended for research purposes only and should not be used for d
 ## Contact
 For questions or issues, please contact:
 - Email: gaurav.bhole@research.iiit.ac.in
-- GitHub: [Mammo-Bench](https://github.com/Gaurav2543/Mammo-Bench)
+- GitHub: [Mammo-Bench](https://github.com/Gaurav2543)
 
 ## Acknowledgments
 We thank the original creators of INbreast, Mini-DDSM, KAU-BCMD, CMMD, CDD-CESM, RSNA Screening Dataset, and DMID for making their datasets publicly available.
