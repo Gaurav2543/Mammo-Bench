@@ -58,7 +58,7 @@ Our experiments demonstrate the effectiveness of the dataset:
 - **Binary Classification**:
   - Normal vs Abnormal: 89.1% accuracy
   - Benign vs Malignant: 73.6% accuracy
-- **Three-class Classification**:
+- **Three-Class Classification**:
   - Without augmentation: 77.8% accuracy
   - With minority class augmentation: 78.8% accuracy
 
