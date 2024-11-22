@@ -41,11 +41,15 @@ import cv2
 import pandas as pd
 
 # Load annotations
-annotations = pd.read_csv('CSV_Files/mammo-bench.csv')
+annotations = pd.read_csv('CSV_Files/mammo-bench.csv', low_memory=False)
 
-# Load an image
-img_path = 'Preprocessed_Dataset/dataset_imageID.jpg'
+# Loading an image
+img_path = 'Preprocessed_Dataset/dataset/dataset_imageID.jpg'
 image = cv2.imread(img_path)
+
+# Loading the Binary Mask
+mask_path = 'Masks/dataset.dataset_imageID.jpg'
+mask = cv2.imread(mask_path)
 ```
 
 ## Citation
