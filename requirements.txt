@@ -1,11 +1,11 @@
 tqdm>=4.66.4
 numpy>=1.24.3
 pandas>=2.2.3
-pydicom=2.4.4
+pydicom>=2.4.4
 pillow>=10.4.0
 seaborn>=0.13.2
 matplotlib>=3.9.2
-tifffile=2024.7.24
+tifffile>=2024.7.24
 scikit-learn>=1.5.2
 matplotlib-inline=0.1.7
 opencv-python>=4.10.0.84
@@ -17,4 +17,3 @@ torchvision=0.19.1
 lightning=2.4.0
 pytorch-lightning=2.4.0
 lightning-utilities=0.11.7
-
