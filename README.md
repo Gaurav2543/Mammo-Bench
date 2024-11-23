@@ -77,6 +77,7 @@ pip install -r requirements.txt
 
 ### Basic Usage
 ```python
+import cv2
 import torch
 import pandas as pd
 from pytorch_lightning import Trainer
@@ -85,12 +86,14 @@ from models.classifier import MammogramClassifier
 # Load annotations
 annotations = pd.read_csv('CSV_Files/mammo-bench.csv', low_memory=False)
 
-# Loading an image
-img_path = 'Preprocessed_Dataset/source_dataset/source_dataset_imageID.jpg'
-image = cv2.imread(img_path)
+idx = 0
 
-# Loading the Binary Mask
-mask_path = 'Masks/source_dataset/source_dataset_imageID.jpg'
+# Load preprocessed image at the index idx in the csv file
+image_path = df.loc[idx, 'preprocessed_image_path']
+image = cv2.imread(image_path)
+
+# Load binary mask of image at the index idx in the csv file
+mask_path = df.loc[idx, 'mask_path']
 mask = cv2.imread(mask_path)
 
 # Initialize model
