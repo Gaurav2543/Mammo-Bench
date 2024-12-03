@@ -42,10 +42,12 @@ Mammo-Bench/
 │   ├── mammo-bench_nbm_classification.csv
 │   ├── mammo-bench_density_classification.csv
 │   └── mammo-bench_birads_classification.csv
+│
 ├── Classification_Codes/       # Implementation of classification models
 │   ├── Hierarchial_Binary_Classification.py
 │   ├── Multi-Class.py
 │   └── Multi-Class_Minority_Augmentation.py
+│
 └── Data_Preparation/          # Data preprocessing notebooks
     ├── Clinical_Data_Preprocessing.ipynb
     ├── Image_Preprocessing.ipynb
