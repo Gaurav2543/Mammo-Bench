@@ -3,10 +3,10 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Overview
-Mammo-Bench is one of the largest open-source mammography datasets, comprising 71,844 high-quality mammographic images from 26,500 patients across 8 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), [Mini-DDSM](https://www.kaggle.com/datasets/cheddad/miniddsm2), [KAU-BCMD](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset), [CMMD](https://www.cancerimagingarchive.net/collection/cmmd/), [CDD-CESM](https://www.cancerimagingarchive.net/collection/cdd-cesm/), [RSNA Screening Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data), and [DMID](https://figshare.com/articles/dataset/_b_Digital_mammography_Dataset_for_Breast_Cancer_Diagnosis_Research_DMID_b_DMID_rar/24522883). Our work addresses the critical need for large-scale, well-annotated datasets in breast cancer detection by unifying and standardizing data from seven well-curated public resources.
+Mammo-Bench is one of the largest open-source mammography datasets, comprising 74,436 high-quality mammographic images from 26,500 patients across 7 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), [Mini-DDSM](https://www.kaggle.com/datasets/cheddad/miniddsm2), [KAU-BCMD](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset), [CMMD](https://www.cancerimagingarchive.net/collection/cmmd/), [CDD-CESM](https://www.cancerimagingarchive.net/collection/cdd-cesm/), [RSNA Screening Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data), and [DMID](https://figshare.com/articles/dataset/_b_Digital_mammography_Dataset_for_Breast_Cancer_Diagnosis_Research_DMID_b_DMID_rar/24522883). Our work addresses the critical need for large-scale, well-annotated datasets in breast cancer detection by unifying and standardizing data from seven well-curated public resources.
 
 ## Dataset Access
-The complete dataset can be accessed [here](https://datafoundation.iiit.ac.in/dataset-versions/469a02c0-de8e-4827-bf8c-14003a46b507).
+The complete dataset can be accessed [here](https://india-data.org/dataset-details/c86fb00c-0fb8-4e0e-85a2-4d415f9c1ada).
 
 ## Code Availability
 The preprocessing code is available in our [GitHub repository](https://github.com/Gaurav2543/Mammo-Bench).
@@ -14,7 +14,7 @@ The preprocessing code is available in our [GitHub repository](https://github.co
 ## Key Features
 
 ### 📊 Dataset Statistics
-- **Total Images**: 71,844 high-quality mammographic images
+- **Total Images**: 74,436 high-quality mammographic images
 - **Patient Coverage**: 26,500 patients
 - **Geographic Diversity**: Data from 8 countries
 - **Source Datasets**: 7 well-curated public resources
@@ -67,9 +67,6 @@ Our experiments demonstrate the effectiveness of the dataset:
 
 ## Getting Started
 
-### Dataset Access
-The complete dataset can be accessed [here](https://datafoundation.iiit.ac.in/dataset-versions/469a02c0-de8e-4827-bf8c-14003a46b507).
-
 ### Installation & Dependencies
 ```bash
 git clone https://github.com/Gaurav2543/Mammo-Bench.git
@@ -109,7 +106,9 @@ trainer.fit(model, train_loader, val_loader)
 ## Citation
 If you use this dataset in your research, please cite:
 ```
-[Citation will be added after publication]
+Mammo-Bench: A Large-scale Benchmark Dataset of Mammography Images
+Gaurav Bhole, S Suba, Nita Parekh
+medRxiv 2025.01.31.25321510; doi: https://doi.org/10.1101/2025.01.31.25321510
 ```
 
 ## License
