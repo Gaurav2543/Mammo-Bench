@@ -106,9 +106,13 @@ trainer.fit(model, train_loader, val_loader)
 ## Citation
 If you use this dataset in your research, please cite:
 ```
-Mammo-Bench: A Large-scale Benchmark Dataset of Mammography Images
-Gaurav Bhole, S Suba, Nita Parekh
-medRxiv 2025.01.31.25321510; doi: https://doi.org/10.1101/2025.01.31.25321510
+@article{bhole2025mammobench,
+  title={Mammo-Bench: A Large-scale Benchmark Dataset of Mammography Images},
+  author={Gaurav Bhole, S Suba, Nita Parekh},
+  journal={medRxiv},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
 
 ## License
