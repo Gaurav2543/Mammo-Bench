@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Overview
-Mammo-Bench is one of the largest open-source mammography datasets, comprising 74,436 high-quality mammographic images from 26,500 patients across 7 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), [DDSM](http://www.eng.usf.edu/cvprg/mammography/database.html),  [KAU-BCMD](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset), [CMMD](https://www.cancerimagingarchive.net/collection/cmmd/), [CDD-CESM](https://www.cancerimagingarchive.net/collection/cdd-cesm/), [RSNA Screening Dataset](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data), and [DMID](https://figshare.com/articles/dataset/_b_Digital_mammography_Dataset_for_Breast_Cancer_Diagnosis_Research_DMID_b_DMID_rar/24522883). Our work addresses the critical need for large-scale, well-annotated datasets in breast cancer detection by unifying and standardizing data from seven well-curated public resources.
+Mammo-Bench is one of the largest open-source mammography datasets, comprising 19,731 high-quality mammographic images from ~6,500 patients across 6 countries. This comprehensive dataset combines and standardizes images from seven well-curated public resources: [INbreast](https://www.kaggle.com/datasets/ramanathansp20/inbreast-dataset), [DDSM](http://www.eng.usf.edu/cvprg/mammography/database.html),  [KAU-BCMD](https://www.kaggle.com/datasets/asmaasaad/king-abdulaziz-university-mammogram-dataset), [CMMD](https://www.cancerimagingarchive.net/collection/cmmd/), [CDD-CESM](https://www.cancerimagingarchive.net/collection/cdd-cesm/), and [DMID](https://figshare.com/articles/dataset/_b_Digital_mammography_Dataset_for_Breast_Cancer_Diagnosis_Research_DMID_b_DMID_rar/24522883). Our work addresses the critical need for large-scale, well-annotated datasets in breast cancer detection by unifying and standardizing data from seven well-curated public resources.
 
 ## Dataset Access
 The complete dataset can be accessed [here](https://india-data.org/dataset-details/c86fb00c-0fb8-4e0e-85a2-4d415f9c1ada).
@@ -14,10 +14,10 @@ The preprocessing code is available in our [GitHub repository](https://github.co
 ## Key Features
 
 ### 📊 Dataset Statistics
-- **Total Images**: 74,436 high-quality mammographic images
-- **Patient Coverage**: 26,500 patients
-- **Geographic Diversity**: Data from 8 countries
-- **Source Datasets**: 7 well-curated public resources
+- **Total Images**: 19,731 high-quality mammographic images
+- **Patient Coverage**: 6,500 patients
+- **Geographic Diversity**: Data from 6 countries
+- **Source Datasets**: 6 well-curated public resources
 
 ### 📋 Comprehensive Annotations
 - Case labels (Normal/Benign/Malignant)
@@ -123,7 +123,7 @@ This project is licensed under CC BY-NC-SA 4.0 - see the [LICENSE](LICENSE) file
 - **Project Link**: [https://github.com/Gaurav2543/Mammo-Bench](https://github.com/Gaurav2543/Mammo-Bench)
 
 ## Acknowledgments
-We thank the original creators of INbreast, DDSM, KAU-BCMD, CMMD, CDD-CESM, RSNA Screening Dataset, and DMID for making their datasets publicly available.
+We thank the original creators of INbreast, DDSM, KAU-BCMD, CMMD, CDD-CESM, and DMID for making their datasets publicly available.
 
 ---
 **Disclaimer**: This dataset is intended for research purposes only and should not be used for direct clinical diagnosis.
